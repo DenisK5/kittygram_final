@@ -12,13 +12,13 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'token')
 
 DEBUG = True
 
-# ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
-ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-    'kitty01.zapto.org',
-    '84.252.136.149',
-]
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
+# ALLOWED_HOSTS = [
+#     '127.0.0.1',
+#     'localhost',
+#     'kitty01.zapto.org',
+#     '84.252.136.149',
+# ]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
