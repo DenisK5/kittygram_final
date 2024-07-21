@@ -1,7 +1,7 @@
 # Kittygram
 
 [![Main Kittygram workflow](https://github.com/denisk5/kittygram_final/actions/workflows/main.yml/badge.svg)](https://github.com/denisk5/kittygram_final/actions/workflows/main.yml)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fyour_host%2F&label=your_host&link=https%3A%2F%2Fyour_host%2F)](https://your_host/)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fkitty01.zapto.org%2F&label=kitty01.zapto.org&link=https%3A%2F%2Fkitty01.zapto.org%2F)](https://kitty01.zapto.org/)
 
 ## Описание
 - Проект Kittygram позволяет пользователям делиться  фотографиями котиков и просматривать фотографии котиков других пользователей.
