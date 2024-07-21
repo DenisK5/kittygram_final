@@ -105,6 +105,28 @@ ALLOWED_HOSTS=127.0.0.1;localhost;<your_host;xxx.xxx.xxx.xxx>
 ```shell
 ssh -i путь_до_файла_с_SSH_ключом/название_файла_закрытого_SSH-ключа login@ip
 ```
+Убедиться, что установлен Docker:
+```shell
+docker --version
+```
+Если нет, то поочерёдно выполните на сервере команды для установки Docker 
+и Docker Compose для Linux.
+```shell
+sudo apt update
+sudo apt install curl
+curl -fSL https://get.docker.com -o get-docker.sh
+sudo sh ./get-docker.sh
+sudo apt install docker-compose-plugin
+```
+Убедиться, что установлен Nginx:
+```shell
+nginx --version
+```
+Если нет, то поочерёдно выполните на сервере команды для установки Nginx
+```shell
+sudo apt update
+sudo apt install nginx
+```
 Создать директорию проекта и перейти в неё:
 ```shell
 mkdir kittygram
